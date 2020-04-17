@@ -1,6 +1,6 @@
 # Exercice pour réviser FS de Node
 
-> Je m'appel, Zyrass, je n'ai aucune affiliation avec la plateforme de Dyma.
+> Je m'appel, **Alain Guillon** alias **Zyrass**, je n'ai aucune affiliation avec la plateforme de Dyma.
 > En revanche, j'ai une très grande admiration pour ce qui a été fait jusqu'à maintenant.
 > Pour les remercier, je vous propose à vous chèr(e)s étudient(e)s un exercice pour réviser les quatres premiers chapitre.
 
