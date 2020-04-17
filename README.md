@@ -36,7 +36,7 @@
 
 > **languages** est le nom que j'ai donné au dossier principal. (Celui qui accueillera tous les sous-dossier.
 
-7. Définition du problème à résoudre
+10. Définition du problème à résoudre
 
 -   Pour vous aider à y voir plus claire, j'ai créé un fichier symaptique copier l'intégralité du code dans le fichier **app.js**
 
