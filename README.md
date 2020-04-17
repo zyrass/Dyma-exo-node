@@ -72,7 +72,7 @@ const probleme = `
     - Dans ce fichier, nous aurions une description du langage. (Cherche sur google te prends pas la tête) 
   
   Bon j'anticipe, je sais que surement il voudra par la suite, mettre à jour son(ces) fichier(s) et donc pour éviter 
-  qu'il m'emmerde plus que ça, peux-tu me rajouter une possibilitée de mise à jour du fichier.
+  qu'il ne m'emmerde plus que ça, peux-tu me rajouter une possibilitée de mise à jour du fichier.
   
   Ah et aussi tant qu'à faire, si tu pourrais me gérer la suppression ce serait parfait!
   
