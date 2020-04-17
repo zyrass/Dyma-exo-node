@@ -12,19 +12,19 @@
 > rechercher également comment **se déplacer dans un répertoire** ou bien même comment **créer des fichiers**
 
 ```diff
-- /!\ Si vous n'avez pas le temps pour apprendre Git, sauter cette l'étape 2
-- /!\ elle ne posera pas de soucis pour la continuitée de l'exercice.
+- /!\ Si vous n'avez pas le temps pour apprendre Git, sauter l'étape 2 et 3
+- /!\ Git ne posera pas de soucis pour la continuitée de l'exercice.
 ```
 
-1. Création d'un répertoire en **ligne de commande.**
+1. Création d'un répertoire en **ligne de commande**, ou **à la main**
 2. Initialisation d'un dépôt **git**
-3. Ajout d'un .gitignore avec pour contenu : `node_modules/`
+3. Ajout d'un **.gitignore** avec pour contenu : `node_modules/`
 4. Créer un fichier **package.json**.
-5. Ajout de la dépendance **colors** qui est utilisée pour ce projet.
-6. Création du fichier **app.js** (_Notre point d'éntrée_)
+5. Ajout de la dépendance **colors** qui est utilisée pour ce projet et qui a été vu en cours.
+6. Création du fichier **app.js** (_Notre point d'éntrée ce qui est généralement le cas_)
 7. Ajout de quelques **scripts** dans ce fichiers (`create`, `read`, `update`, `delete`)... _Du **C.R.U.D** avec **FS**_
-8. Création de l'architechture : (**Folder de réception des futurs résultats**) en ligne de commande.
-9. Création des fichiers à la racine du projet:
+8. Création de l'architechture (réfléchissez où idéalement on placerait ce genre de création)
+9. Création des fichiers à la racine du projet :
 
 | Noms des fichiers | Descriptions des fichiers                                                             |
 | ----------------- | ------------------------------------------------------------------------------------- |
@@ -33,18 +33,19 @@
 | **read.js**       | Ce fichier nous permettra de lire le contenu de ce qui aura été créer dans un tableau |
 | **update.js**     | Ce fichier nous permettra de mettre à jour un quelconque fichier                      |
 | **delete.js**     | Ce fichier nous permettra de supprimer un fichier                                     |
-| **languages/**    | Dossier qui accueillera tous les sous-dossier ;)                                      |
+
+> **languages** est le nom que j'ai donné au dossier principal. (Celui qui accueillera tous les sous-dossier.
 
 7. Définition du problème à résoudre
 
--   Pour vous aider pour la création du fichier app.js :
+-   Pour vous aider à y voir plus claire, j'ai créé un fichier symaptique copier l'intégralité du code dans le fichier **app.js**
 
 ```sh
 # création du fichier app.js
 touch app.js
 ```
 
-> Optionnelement on importera le package **colors** qui a été vu dans un des cours.
+> On pensera à importer le package **colors** qui a été vu dans un des cours.
 > Dans le fichier **app.js** on y ajoutera ce code :
 
 #### contenu du fichier app.js
@@ -83,6 +84,11 @@ const probleme = `
   
   ps: Je t'ajoute un objet qui t'aideras pour la réalisation du projet`;
 
+/**
+ * langages correspond au folder principal
+ * les "keys" correspondent aux sous-dossiers
+ * les "values" correspondent aux fichiers à créer
+ **/
 const langagesSouhaite = {
 	langages: {
 		html: 'DYMA-html.txt',
@@ -110,12 +116,13 @@ console.log('-------------------------------------------------------------- ');
 
 ```diff
 - Il faut savoir qu'il vous faudra allez voir la documentation officiel de node
-- Pour ma part j'a utiliser du code qui né pas été présenté.
+- Pour ma part j'a utiliser du code qui n'a pas été présenté.
 ```
 
-1. exemple avec la detection d'un dossier si il existe
-2. listing de tout les répertoire
+1. Par exemple avec la détection d'un dossier si il existe déjà ou non
+2. Un listing de tout les répertoires et donc contrôler l'existance de tel ou tel chose.
 
 ## Pour les plus téméraires,
 
 -   Vous pouvez vous amusez à faire toutes les vérifications possible pour éviter l'affichage de quelques erreurs
+- De plus vous pouvez optimiser le code voir même l'améliorer :D
