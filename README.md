@@ -122,7 +122,9 @@ console.log('-------------------------------------------------------------- ');
 1. Par exemple avec la détection d'un dossier si il existe déjà ou non
 2. Un listing de tout les répertoires et donc contrôler l'existance de tel ou tel chose.
 
-## Pour les plus téméraires,
+## Pour les plus téméraires
+
+Une fois que j'aurais ajouté mon code
 
 -   Vous pouvez vous amusez à faire toutes les vérifications possible pour éviter l'affichage de quelques erreurs
 - De plus vous pouvez optimiser le code voir même l'améliorer :D
